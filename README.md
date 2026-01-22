@@ -27,7 +27,7 @@ docker logs [ContainerID]   # to check container logs
 docker stats [ContainerID]  # to check container resources
 docker ps -a -q # to list all conatainer IDs
 docker rm -f `docker ps -aq` # to remove all containers
-docker cp/mv #
+docker cp/mv # Home Work
 ```
 
 ## Docker command for images
