@@ -11,7 +11,6 @@ RUN git clone https://github.com/shubhamkalsait/EasyCRUD.git
 
 WORKDIR EasyCRUD/backend
 
-RUN sed 
 
 RUN mvn clean package -DskipTest
 
