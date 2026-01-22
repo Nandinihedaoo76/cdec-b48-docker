@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
+LABEL name shubhamkalsait
 
 RUN apt update && apt install openjdk-17-jdk git maven -y
 
