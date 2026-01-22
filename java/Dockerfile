@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt update && apt install openjdk-17-jdk -y && apt install git -y && apt install maven -y
+RUN apt update && apt install openjdk-17-jdk git maven -y
 
 WORKDIR /opt
 
