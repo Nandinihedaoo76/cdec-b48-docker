@@ -3,6 +3,7 @@ LABEL name shubhamkalsait
  
 SHELL "/bin/bash"
 USER root
+VOLUME []
 RUN apt update && apt install openjdk-17-jdk git maven -y
 
 WORKDIR /opt
