@@ -18,8 +18,9 @@ RUN mvn clean package -DskipTests
 EXPOSE 8080
 
 CMD ["java", "-jar", "target/EasyCRUD-1.0-SNAPSHOT.jar"]
+CMD [ls]
 ENTRYPOINT []
 
 
 
-docker run -d httpd bash
+docker run -d httpd rm
